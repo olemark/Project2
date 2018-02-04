@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'RisqueRegular';
+    src: url('../fonts/RisqueRegular.eot');
+    src: url('../fonts/RisqueRegular.eot') format('embedded-opentype'),
+    url('../fonts/RisqueRegular.woff2') format('woff2'),
+    url('../fonts/RisqueRegular.woff') format('woff'),
+    url('../fonts/RisqueRegular.ttf') format('truetype'),
+    url('../fonts/RisqueRegular.svg#RisqueRegular') format('svg');
+}
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {outline:none;
+    text-decoration:none;
+    font-size:11px;
+    color:#2d2a2b ;
+}
+img {border:none;}
+html {
+    height: 100%;
+}
+
+/*For index2-1.html*/
+body {
+    height: auto !important;
+    position: relative;
+    background-color: #0d1919 ;
+    font-size:13px;
+    color:white;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.main-container{
+    background-image: url("../images/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+    margin-bottom: 188px;
+
+}
+h1 {
+    font-size: 125px;
+    line-height: 125px;
+    letter-spacing: 33px;
+    text-transform: uppercase;
+    margin-bottom: 283px;
+    font-family: 'RisqueRegular', cursive;
+}
+h2 {
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'RisqueRegular', cursive;
+}
+.emailid {
+    width: 362px;
+    height: 42px;
+    background-color: #6f6f6f;
+    box-sizing: border-box;
+    color: black;
+    margin-right: 10px;
+    display: inline-block;
+    border: solid 1px #cccccc;
+    }
+.signup {
+    background-color: #ed1c24;
+    height: 42px;
+    color: white;
+    width: 163px;
+    border: none;
+    display: inline-block;
+
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+
+
+/*For index2-2.html*/
+.fa{
+    font-size: 20px;
+    color: yellow;
+    line-height: 30px;
+}
+
+.facebook{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
